@@ -8,7 +8,7 @@ import { BiMenu } from "react-icons/bi";
 import { SiReactos } from "react-icons/si";
 const Header = () => {
   return (
-    <header className="px-5 bg-white">
+    <header className="px-5 bg-white md:shadow">
       <div className="container mx-auto">
         <div className="flex justify-between items-center h-16 md:hidden">
           <a
@@ -33,7 +33,7 @@ const Header = () => {
             </a>
           </div>
         </div>
-        <div className="hidden md:flex justify-between items-center h-20 shadow">
+        <div className="hidden md:flex justify-between items-center h-20">
           <div>
             <a
               href="#"
