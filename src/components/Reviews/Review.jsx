@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const Review = ({ url, name, reviewDate, description }) => {
   return (
     <div className="border border-gray-300 sm:border-0 p-5 sm:p-0 rounded-xl min-w-[400px]">
