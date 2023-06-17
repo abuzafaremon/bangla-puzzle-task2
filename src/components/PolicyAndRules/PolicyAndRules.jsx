@@ -2,7 +2,7 @@ import { FaAngleRight } from "react-icons/fa";
 
 const PolicyAndRules = () => {
   return (
-    <section className="px-5 md:py-10 border-b-8 border-b-gray-300">
+    <section className="px-5 md:py-10 border-b-8 md:border-b border-b-gray-300">
       <div className="container mx-auto">
         <div>
           <h2 className="hidden md:block text-2xl font-medium mb-3">
